@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Design Expo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader"></div>
+
+<nav class="navbar">
+  <div class="logo">Kittl Expo</div>
+
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="links">
+    <a href="#home" data-section="home">Home</a>
+    <a href="#about" data-section="about">About</a>
+    <a href="#product" data-section="product">Product</a>
+    <a href="#contact" data-section="contact">Contact</a>
+    <button id="themeToggle">🌙</button>
+  </div>
+</nav>
+
+<main id="app">
+
+  <section id="home" class="section active">
+    <div class="hero-grid parallax">
+      <div class="hero-info reveal">
+        <h4>AUG 22–24</h4>
+        <p>9AM – 6PM</p>
+        <p>City Expo Center</p>
+        <p>Booth D12 · Grand Arch Pavilion</p>
+      </div>
+
+      <div class="hero-image reveal">
+        <img src="https://images.unsplash.com/photo-1582582494700-5f0d2c8a5b0f" alt="Interior">
+      </div>
+
+      <div class="hero-text reveal">
+        <h1>DESIGN.</h1>
+        <h1>DEVELOP.</h1>
+        <h1>DEMO.</h1>
+        <p class="subtitle">Join the conversation on design & living</p>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature reveal">
+        <h2>Live Demos</h2>
+        <p>Experience tools in real time with expert guidance.</p>
+      </div>
+      <div class="feature reveal">
+        <h2>Project Showcases</h2>
+        <p>Discover innovative architectural workflows.</p>
+      </div>
+      <div class="feature reveal">
+        <h2>Keynote Sessions</h2>
+        <p>Industry leaders share insights on future design.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h1 class="reveal">About The Expo</h1>
+    <p class="reveal">
+      PropConnect Expo 2025 brings together architects, designers and developers
+      for three immersive days of innovation.
+    </p>
+  </section>
+
+  <section id="product" class="section">
+    <h1 class="reveal">Our Product</h1>
+    <p class="reveal">
+      Cutting-edge design tools and digital architecture solutions
+      built for modern creators.
+    </p>
+  </section>
+
+  <section id="contact" class="section">
+    <h1 class="reveal">Contact Us</h1>
+    <form class="contact-form reveal">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
