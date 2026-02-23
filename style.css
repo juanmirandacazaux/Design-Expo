@@ -267,7 +267,7 @@ body {
 
 footer {
   background: var(--bg-dark);
-  color: var(--text-color);
+  color: #ffffff;
   text-align: center;
   padding: 20px;
 }
