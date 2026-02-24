@@ -149,6 +149,11 @@ body {
 
 /* REVEAL */
 
+.about-card.reveal.visible {
+    color: white;
+}
+
+
 .reveal {
   opacity: 0;
   transform: translateY(50px);
@@ -252,6 +257,10 @@ body {
 .about-card:hover,
 .product-card:hover {
   transform: translateY(-10px);
+}
+
+.product-card.reveal.visible {
+    color: white;
 }
 
 .contact-wrapper {
