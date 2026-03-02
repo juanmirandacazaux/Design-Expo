@@ -117,6 +117,18 @@ body {
   transform: translateY(0);
 }
 
+
+/* Homepage */
+
+img.furnitureImage {
+    width: 65vh;
+}
+
+.hero-text.reveal.visible {
+    margin-bottom: 220px;
+}
+
+
 /* HERO */
 
 .hero-grid {
@@ -131,10 +143,6 @@ body {
   line-height: 0.9;
 }
 
-.hero-image img {
-  width: 100%;
-  border-radius: 10px;
-}
 
 /* FEATURES */
 
