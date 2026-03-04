@@ -143,6 +143,11 @@ body {
   gap: 40px;
 }
 
+
+.subtitle {
+    margin-bottom: 50px;
+}
+
 /* REVEAL */
 
 .about-card.reveal.visible {
@@ -216,6 +221,12 @@ body {
 
   .links a {
     margin: 15px;
+  }
+
+
+  .features {
+    padding: 25px;
+    gap: 20px;
   }
 }
 
